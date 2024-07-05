@@ -1,0 +1,79 @@
+/* Default styles for small screens */
+.experience__container {
+    display: grid;
+    gap: 2rem;
+  }
+  
+  .experience__image img {
+    max-width: 100%;
+    margin: auto;
+  }
+  
+  .experience__content {
+    margin-right: 0;
+    max-width: 100%;
+  }
+  
+  .section__container {
+    max-width: var(--max-width);
+    margin: auto;
+    padding: 2rem 1rem;
+  }
+  
+  .section__subheader {
+    font-size: 1rem;
+    font-weight: 500;
+    color: #fff;
+  }
+  
+  .section__header {
+    font-size: 2rem;
+    font-weight: 700;
+    line-height: 2.5rem;
+    color: #FDF6D0;
+  }
+  
+  .section__description {
+    margin-bottom: 1rem;
+    color: #fff;
+  }
+  
+  /* Medium screens (tablets) */
+  @media (min-width: 768px) {
+    .experience__container {
+      grid-template-columns: repeat(2, 1fr);
+      align-items: center;
+    }
+  
+    .experience__content {
+      margin-right: 20%;
+      max-width: 400px;
+    }
+  
+    .section__header {
+      font-size: 2.5rem;
+      line-height: 3.5rem;
+    }
+  
+    .section__description {
+      margin-bottom: 2rem;
+    }
+  }
+  
+  /* Large screens (desktops) */
+  @media (min-width: 1024px) {
+    .experience__content {
+      margin-right: 30%;
+      max-width: 500px;
+    }
+  
+    .section__header {
+      font-size: 3rem;
+      line-height: 4rem;
+    }
+  
+    .section__container {
+      padding: 5rem 1rem;
+    }
+  }
+  

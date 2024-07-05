@@ -1,0 +1,76 @@
+.order {
+  min-height: 100%;
+  max-width: 100%;
+  background-color: rgb(1, 1, 1);
+  padding: 20%;
+  color: white;
+  position: relative;
+  z-index: 1;
+}
+
+/**
+BAGIAN GUE
+*/
+#about .about {
+	flex-direction: column-reverse;
+	text-align: center;
+	max-width: 1200px;
+	margin: 0 auto;
+	padding: 100px 20px;
+}
+#about .col-left {
+	width: 250px;
+	height: 360px;
+}
+#about .col-right {
+	width: 100%;
+}
+#about .col-right h2 {
+	font-size: 1.8rem;
+	font-weight: 500;
+	letter-spacing: 0.2rem;
+	margin-bottom: 10px;
+}
+#about .col-right p {
+	margin-bottom: 90px;
+}
+#about .col-right .cta {
+	color: black;
+	margin-bottom: 50px;
+	padding: 10px 20px;
+	font-size: 2rem;
+}
+
+
+/* About */
+
+#about .col-right {
+  text-align: center;
+  padding: 30px;
+}
+#about .col-right h1 {
+  text-align: center;
+}
+/* End About */
+
+.section-title {
+	font-size: 4rem;
+	font-weight: 300;
+	color: #FDF6D0;
+	margin-bottom: 10px;
+	text-transform: uppercase;
+	letter-spacing: 0.2rem;
+	text-align: center;
+  display: flex;
+  justify-content: center;
+}
+
+.brand h1 {
+	font-size: 3rem;
+	text-transform: uppercase;
+	color: white;
+
+}
+.brand h1 span {
+	color: crimson;
+}
